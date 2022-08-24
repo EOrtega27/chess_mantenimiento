@@ -28,4 +28,10 @@ Any value defined here will override the pom.xml file value but is only applicab
         <org-netbeans-modules-editor-indent.CodeStyle.project.expand-tabs>true</org-netbeans-modules-editor-indent.CodeStyle.project.expand-tabs>
         <org-netbeans-modules-editor-indent.CodeStyle.usedProfile>project</org-netbeans-modules-editor-indent.CodeStyle.usedProfile>
     </properties>
+    <!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+	<dependency>
+	    <groupId>org.sonarsource.scanner.maven</groupId>
+	    <artifactId>sonar-maven-plugin</artifactId>
+	    <version>3.9.1.2184</version>
+	</dependency>
 </project-shared-configuration>
